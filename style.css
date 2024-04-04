@@ -53,6 +53,6 @@ p {
 @media screen and (max-width: 500px) {
     .wrapper {
       width: 60%;
-    font-size: min(2vw, 25px); /* Adjust the values as needed */
+    font-size: min(2vw, 35px); /* Adjust the values as needed */
     }
   }
