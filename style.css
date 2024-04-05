@@ -48,8 +48,17 @@ body {
     background-color: #f0f0f0;
     color: rgba(26, 26, 26, 0.8);
   }
-
-a {
+.key2 {
+    display: inline-block;
+    border: 3px solid #7e7e7efe;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: #202020ce;
+    color: rgba(220, 220, 220, 0.8);
+  }
+a, .highlights {
     background: linear-gradient(to right, #00f2ff, #88fcd9);
     -webkit-background-clip: text;
     color: transparent;
@@ -61,12 +70,15 @@ p {
     align-items: start;
 }
 
+.mb {
+    margin-bottom: 5px;
+}
 @media screen and (max-width: 500px) {
     .wrapper {
       width: 60%;
     font-size: min(3vw, 25px); /* Adjust the values as needed */
     }
-    .key {
+    .key, .key2 {
     padding: 2px 5px;
     }
   }
