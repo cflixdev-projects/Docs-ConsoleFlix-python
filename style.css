@@ -38,6 +38,17 @@ body {
     margin-bottom: 20px;
 }
 
+.key {
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: rgba(26, 26, 26, 0.8);
+  }
+
 a {
     background: linear-gradient(to right, #00f2ff, #88fcd9);
     -webkit-background-clip: text;
@@ -54,5 +65,8 @@ p {
     .wrapper {
       width: 60%;
     font-size: min(3vw, 25px); /* Adjust the values as needed */
+    }
+    .key {
+    padding: 2px 5px;
     }
   }
