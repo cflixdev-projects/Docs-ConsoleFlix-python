@@ -77,9 +77,16 @@ p {
 .mb {
     margin-bottom: 5px;
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 1000px) {
     .wrapper {
-      width: 60%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+      width: 70%;
     font-size: min(3vw, 25px); /* Adjust the values as needed */
     }
     .key, .key2 {
