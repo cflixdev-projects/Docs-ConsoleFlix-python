@@ -92,7 +92,7 @@ p {
 @media screen and (max-width: 550px) {
     .wrapper {
       width: 70%;
-    font-size: min(3vw, 32px); /* Adjust the values as needed */
+    font-size: min(3.6vw, 28px); /* Adjust the values as needed */
     }
     .key, .key2 {
     padding: 2px 5px;
